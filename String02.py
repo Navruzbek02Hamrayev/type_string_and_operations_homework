@@ -1,4 +1,4 @@
-def main(a):
+def main():
     """
     Return a string consisting only of uppercase letters.
     Args:
@@ -6,6 +6,7 @@ def main(a):
     Returns:
         str: return answer.
     """
-    return len(a)
-print(main("CODESCHOOLUZ"))
-print(main("PYTHONUZ"))
+    a="CODESCHOOLUZ"
+    b="PYTHONUZ"
+    return len(a),len(b)
+print(main())
