@@ -5,6 +5,7 @@ def main(a):
     Returns:
         str: return answer.
     """
-    return len(a)
+    if len(a)==8:
+        return len(a),a
 print(main("12345678"))
 print(main("aaaazzzz"))
