@@ -6,9 +6,6 @@ def main(a):
     Returns:
         str: return answer.
     """
-    if len(a)==8:
-        return a
-    else:
-        return len(a),a,len(a)!=8
+    return len(a)
 print(main("CODESCHOOLUZ"))
 print(main("PYTHONUZ"))
