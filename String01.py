@@ -7,3 +7,4 @@ def main(a):
     """
     return len(a)
 print(main("12345678"))
+print(main("aaaazzzz"))
