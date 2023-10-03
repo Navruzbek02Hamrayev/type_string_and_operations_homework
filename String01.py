@@ -6,6 +6,5 @@ def main():
         str: return answer.
     """
     a="12345678"
-    if len(a)==8:
-        return len(a),a
+    return len(a),a
 print(main())
