@@ -7,6 +7,5 @@ def main():
         str: return answer.
     """
     a="CODESCHOOLUZ"
-    b="PYTHONUZ"
-    return len(a),len(b)
+    return str(a)
 print(main())
